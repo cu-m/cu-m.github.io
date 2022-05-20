@@ -1,0 +1,52 @@
+/* ---- reset ---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-color: #17182f;
+    font-family: 'pacifico', monospace;
+    color: white;
+    font-size: 60px;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+.fancy-font {
+    background-color: #0f101f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.gitlabgithubgitballs {
+    font-family: 'pacifico', monospace;
+    font-size: 25px;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
